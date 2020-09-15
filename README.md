@@ -50,7 +50,7 @@ The Airfield1 class holds the constructor Airfield1. This constructor holds the 
 *Classes, subclasses, and interfaces
 The subclasses FighterJet, CargoPlane, and JetImpl all inherit from the abstract class Jets. CargoPlane implements the loadCargo method from the CargoCarrier interface, andFighterJet implements the fight() method from the CombatReady interface.
 
-* Instructions
+*Instructions
 The user is prompted to choose from a series of options presented in a menu. Following this the user is prompted to request info for different outputs shared in the menu.
 
 ##Lessons learned
