@@ -4,7 +4,7 @@
 
 In this project, a series of jets are inputed into a class using a file. Following this, a series of menu options are presented to the user. When the user inputs an option, information on the jets available is shown. The menu loops so that users have the chance to enter all menu options.
 
-### Topics
+### Methods
 
 * PrintMenu
 The user is shown a menu (printMenu()) where they can enter an integer corresponding to the task they would like to perform.
@@ -37,6 +37,9 @@ Calling the addJet method passes this user information as parameters. In return 
 * method removeJet
 Upon choosing option 8, the user is prompted to enter new the number of the jet they would like to remove from the list. RemoveJet method passes this user information as a parameter. In return a jet is removed from the jet list.
 
+### Instructions
+The user is prompted to choose from a series of options presented in a menu. Following this the user is prompted to request info for different outputs shared in the menu.
+
 ### Quitting the program
 When option 9 is chosen, the user quits the program by leaving the keepGoing while loop.
 
@@ -49,8 +52,6 @@ The Airfield1 class holds the constructor Airfield1. This constructor holds the 
 * Classes, subclasses, and interfaces
 The subclasses FighterJet, CargoPlane, and JetImpl all inherit from the abstract class Jets. CargoPlane implements the loadCargo method from the CargoCarrier interface, andFighterJet implements the fight() method from the CombatReady interface.
 
-### Instructions
-The user is prompted to choose from a series of options presented in a menu. Following this the user is prompted to request info for different outputs shared in the menu.
 
 ### Lessons learned
 I learned more about the difference between arrays and arraylists, and how their call to functions differ. I also learned about how calls to methods can be strung together (e.g. this.jets.get(fastestIndex).getSpeed())
