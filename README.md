@@ -37,13 +37,13 @@ Calling the addJet method passes this user information as parameters. In return 
 * method removeJet
 Upon choosing option 8, the user is prompted to enter new the number of the jet they would like to remove from the list. RemoveJet method passes this user information as a parameter. In return a jet is removed from the jet list.
 
-* Quitting the program
+### Quitting the program
 When option 9 is chosen, the user quits the program by leaving the keepGoing while loop.
 
-* FileInput
+### FileInput
 The class Airfield has a FileReader for reading "JetsList" file that contains the list of Jets used for this program.
 
-* Arrays
+### Arrays
 The Airfield1 class holds the constructor Airfield1. This constructor holds the array jets that is the main array used for the main jets application.
 
 * Classes, subclasses, and interfaces
